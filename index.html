@@ -2,17 +2,23 @@
     Best NHL Players From The 2023-2024 Season
     </title>
 
-    <div class="navbar-fixed">
-        <nav>
-          <div class="nav-wrapper">
-            <ul class="right hide-on-med-and-down">
-              <li><a href="index.html">Players 7-10</a></li>
-              <li><a href="Second.html">Players 4-6</a></li>
-              <li><a href="Third.html">Top 3</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+  <!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="index.html">7-10</a></li>
+    <li><a href="Second.html">4-6</a></li>
+    <li><a href="Third.html">Top 3</a></li>
+  </ul>
+  <nav>
+    <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="Second.html">Sass</a></li>
+        <li><a href="Third.html">Components</a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-trigger" href="index.html" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+    </div>
+  </nav>
     
 <!DOCTYPE html>
 <html>
